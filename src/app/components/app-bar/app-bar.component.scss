@@ -1,0 +1,39 @@
+button {
+    padding: 10px 20px;
+    width: auto;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #dddddd;
+    color: black;
+    height: 35px;
+}
+
+img {
+    height: 80px;
+}
+
+button:hover {
+    background-color: rgb(229, 144, 144);
+    color: black;
+}
+
+button:active {
+    background-color: rgb(110, 56, 56);
+    color: white;
+}
+
+.appbar {
+    background-color: #336699;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .col {
+    text-align: center;
+  }
+  
