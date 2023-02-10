@@ -1,39 +1,19 @@
-button {
-    padding: 10px 20px;
-    width: auto;
-    display: inline-block;
-    border: 1px solid black;
-    border-radius: 5px;
-    text-align: center;
-    background-color: #dddddd;
-    color: black;
-    height: 35px;
+.navbar {
+  background-color: #333;
+  height: auto;
 }
 
-img {
-    height: 80px;
+.navbar-brand {
+  color: #fff;
 }
 
-button:hover {
-    background-color: rgb(93, 220, 226);
-    color: black;
+.navbar-nav .nav-link {
+  color: #fff;
 }
 
-button:active {
-    background-color: rgb(255, 0, 0);
-    color: white;
+.navbar-nav .nav-link:hover {
+  background-color: #444;
 }
-
-.appbar {
-    background-color: #336699;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-  }
-
-  .col {
-    text-align: center;
-  }
-  
+img{
+  height: 60px;
+}
