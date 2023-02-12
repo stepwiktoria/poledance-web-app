@@ -9,7 +9,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ContactComponent } from './modules/contact/contact.component';
 import { InstructorsComponent } from './modules/instructors/instructors.component';
 import { ClassesComponent } from './modules/classes/classes.component';
-
+import { HomeComponent } from './modules/home/home.component';
 
 
 
@@ -21,9 +21,7 @@ import { ClassesComponent } from './modules/classes/classes.component';
     ContactComponent,
     InstructorsComponent,
     ClassesComponent,
-   
-
-   
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
