@@ -1,0 +1,38 @@
+body {
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  table {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  thead th {
+    text-align: center;
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  tbody td {
+    text-align: center;
+    padding: 10px;
+  }
+  .class-image {
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+}
