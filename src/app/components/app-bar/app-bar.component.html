@@ -3,45 +3,48 @@
     <div class="image-hero">
       <img src="./../../../../../assets/images/logo.png" height="160px">
     </div>
-    <nav class="navbar navbar-expand-lg bg-white">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse d-lg-flex">
-          <a class="navbar-brand col-lg-3 me-0" href="#"></a>
-          <ul class="navbar-nav col-lg-6 justify-content-lg-center">
+  </div>
+</div>
+<nav class="navbar navbar-expand-lg bg-white">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-lg-flex">
+      <a class="navbar-brand col-lg-3 me-0" href="#"></a>
+      <ul class="navbar-nav col-lg-6 justify-content-lg-center">
+        <li class="nav-item">
+          <ul class="navbar-nav ml-auto justify-content-center">
             <li class="nav-item">
-              <ul class="navbar-nav ml-auto justify-content-center">
-                <li class="nav-item">
-                  <button class="nav-link active" routerLink="">O nas</button>
-                </li>
-                <li class="nav-item">
+              <button class="nav-link active" routerLink="">O nas</button>
+            </li>
+            <li class="nav-item">
 
-                  <div class="dropdown">
-                    <button class="nav-link active" routerLink='offer'>Oferta</button>
-                    <div class="dropdown-content">
-                      <button class="nav-link active" routerLink='offer'>dla doroslych</button>
-                      <button class="nav-link active" routerLink='offerkids'>dla dzieci</button>
-                    </div>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <button class="nav-link active" routerLink="classes">Grafik zajec</button>
-                </li>
-                <li class="nav-item">
-                  <button class="nav-link active" routerLink="prices">Cennik</button>
-                </li>
-                <li class="nav-item">
-                  <button class="nav-link active" routerLink="instructors">Instruktorzy</button>
-                </li>
-                <li class="nav-item">
-                  <button class="nav-link active" routerLink="contact">Kontakt</button>
-                </li>
-              </ul>
+              <div class="dropdown">
+                <button class="nav-link active" routerLink='offer'>Oferta</button>
+                <div class="dropdown-content">
+                  <button class="nav-link active" routerLink='offer'>dla doroslych</button>
+                  <button class="nav-link active" routerLink='offerkids'>dla dzieci</button>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link active" routerLink="classes">Grafik zajec</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link active" routerLink="prices">Cennik</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link active" routerLink="instructors">Instruktorzy</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link active" routerLink="contact">Kontakt</button>
             </li>
           </ul>
-        </div>
-      </div>
-    </nav>
-    <router-outlet></router-outlet>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
