@@ -6,6 +6,17 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- Fitssey base code -->
+  <script src="https://app.fitssey.com/assets/js/lb.widget.prod.js"></script>
+  <script>
+    window.lb = {
+      init: function(companyId, options) {
+        /* ... */
+      },
+      /* ... */
+    };
+    lb('init', 'lightenbody-pl', {baseUrl: 'http://localhost:4200/classes', debug: false});
+  </script>
 </head>
 <body>
   <app-root></app-root>
