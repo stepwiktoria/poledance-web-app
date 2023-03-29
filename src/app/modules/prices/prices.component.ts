@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare let lb: any;
 
 @Component({
   selector: 'app-prices',
@@ -10,6 +11,8 @@ export class PricesComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    lb('mounted');
   }
 
 }
+
