@@ -1,0 +1,44 @@
+.price-list {
+    margin: 50px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 30px;
+    color: #bfbfbf;
+  }
+  
+  table {
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    background-color: #bfbfbf;
+    color: #fff;
+    font-weight: 400;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  td {
+    border-bottom: 1px solid #bfbfbf;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f7f7f7;
+  }
+  
+  tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  td:first-child {
+    font-weight: 700;
+    color: #a58e5a;
+  }
+  
